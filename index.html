@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Blog</title>
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .post-item img {
+         width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar" id="home">
+      <div class="navbar-flex container">
+        <h1><i class="fa-solid fa-circle-user"></i>&nbsp;My Blog</h1>
+        <div class="main-menu-items">
+          <ul class="main-menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="#post">Posts</a>
+            </li>
+            <li>
+              <a href="info.html">Info</a>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="mobile-menu">
+          <div class="mobile-menu-toggle">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="#post">Posts</a>
+              </li>
+              <li>
+                <a href="info.html">Info</a>
+              </li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero" id="post">
+      <div class="container1 hero-flex">
+        <div class="content">
+          <h2>Need of this Blog????</h2>
+          <br>
+          <p>
+            Today, I want to talk about why I decided to create a blog dedicated to my idol. You see, when someone inspires you as much as my idol inspires me, you feel a deep need to express that admiration. A blog is the perfect platform to do just that. It's a space where I can share my thoughts, my feelings, and everything I appreciate about them with the world.
+          </p>
+          <br>
+          <p>
+            On a personal level, running this blog will help me grow too. It will sharpen my writing skills, push me to be more creative, and allow me to contribute to something I genuinely care about. Plus, in my own small way, I'll be supporting my idol by promoting their work and helping them reach a wider audience.
+          </p>
+        </div>
+        <div class="sidebar" id="sidebar">
+          <div class="posts">
+            <h3>Recent Posts</h3>
+            <ul>
+              <li>
+                <div class="post-item">
+                  <a href="post1.html">
+                    <h4>End of LUCAS hiatus</h4>
+                    <p class="meta">by Kamya | August 17, 2024</p>
+                    <img src="hiatus.jpg" alt="sample img">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Molestias.
+                    </p>
+                    <button>Read More&nbsp;<i class="fa-solid fa-angles-right"></i></button>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="post-item">
+                  <a href="post2.html">
+                    <h4>LUCAS's Unique Style and Personality</h4>
+                    <p class="meta">by Kamya | August 17, 2024</p>
+                    <img src="fashion1.jpg" alt="sample img">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Molestias.
+                    </p>
+                    <button>Read More&nbsp;<i class="fa-solid fa-angles-right"></i></button>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="categories">
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="#career">-Career</a></li>
+              <li><a href="#fashion">-Fashion</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <footer class="footer-list" id="contact">
+      <div><p>Contact us at: info@myblog.com</p></div>
+      <div class="footer-links">
+        <a href="https://www.youtube.com/@LUCAS_smtown" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="https://x.com/lucas_official" target="_blank"><i class="fab fa-twitter fa-2x" ></i></a>
+        <a href="https://www.instagram.com/lucas_xx444?igsh=N3RwbHd2b2VlMnlo" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      </div>
+      <div><p>Copyrights &copy; 2024 My Blog.<div> All rights reserved.</div> </p></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
